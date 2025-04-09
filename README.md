@@ -36,7 +36,7 @@
 - Replace `DISTRO_NAME` with the actual name of your distro.
 - Customize commands in the console section.
 
-1. **Convert to `.exe`:**
+2. **Convert to `.exe`:**
 
 - Run `auto-py-to-exe` in your terminal.
 - Select your modified `.py` file as input.
@@ -46,7 +46,7 @@
 - Pick an icon and click **Convert .py to .exe**.
 - Test your `.exe` to ensure it works perfectly.
 
-1. **Upload to GitHub:**
+3. **Upload to GitHub:**
 
 - Create a repository with the name `TS-DISTRO <Your Distro Name>`.
 - Write a description, e.g., `TS-DISTRO Phoenix is a customizable distro based on TS-KERNEL 1.0.0`.
