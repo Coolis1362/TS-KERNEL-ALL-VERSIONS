@@ -32,7 +32,7 @@
 
 1. **Clone The Resp**
 
-   -type in the command below to your terminal:
+   - type in the command below to your terminal:
 
    ```bash
    git clone https://github.com/Coolis1362/TS-KERNEL-1.0.0.git
