@@ -30,7 +30,8 @@
 
 ### Steps to Create Your Distro
 
-2. **Clone The Resp**
+1. **Clone The Resp**
+
    -type in the command below to your terminal:
 
    ```bash
@@ -38,13 +39,13 @@
    ```
    - if Git Is not Installed Get It [Here](https://git-scm.com/downloads/win)
 
-1. **Edit the Code:**
+2. **Edit the Code:**
 
 - Update `put_distro_name_here()` with your distro’s name.
 - Replace `DISTRO_NAME` with the actual name of your distro.
 - Customize commands in the console section.
 
-2. **Convert to `.exe`:**
+3. **Convert to `.exe`:**
 
 - Run `auto-py-to-exe` in your terminal.
 - Select your modified `.py` file as input.
@@ -54,7 +55,7 @@
 - Pick an icon and click **Convert .py to .exe**.
 - Test your `.exe` to ensure it works perfectly.
 
-3. **Upload to GitHub:**
+4. **Upload to GitHub:**
 
 - Create a repository with the name `TS-DISTRO <Your Distro Name>`.
 - Write a description, e.g., `TS-DISTRO Phoenix is a customizable distro based on TS-KERNEL 1.0.0`.
