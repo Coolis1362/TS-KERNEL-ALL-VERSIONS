@@ -30,6 +30,14 @@
 
 ### Steps to Create Your Distro
 
+2. **Clone The Resp**
+   -type in the command below to your terminal:
+
+   ```bash
+   git clone https://github.com/Coolis1362/TS-KERNEL-1.0.0.git
+   ```
+   - if Git Is not Installed Get It [Here](https://git-scm.com/downloads/win)
+
 1. **Edit the Code:**
 
 - Update `put_distro_name_here()` with your distro’s name.
