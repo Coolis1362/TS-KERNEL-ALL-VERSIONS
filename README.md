@@ -96,4 +96,4 @@ This project is **open-source**. You are free to use, modify, and distribute it 
 
 ## Bugs And Issues
 
-If There Are Bugs Please Go To The [Issues](https://github.com/Coolis1362/TS-KERNEL-1.0.0\issues)
+If There Are Bugs Please Go To The [Issues](https://github.com/Coolis1362/TS-KERNEL-1.0.0/issues)
