@@ -93,3 +93,7 @@ Feel free to add your own commands to make your distro unique.
 This project is **open-source**. You are free to use, modify, and distribute it without restrictions.
 
 ---
+
+## Bugs And Issues
+
+If There Are Bugs Please Go To The [Issues](https://github.com/Coolis1362/TS-KERNEL-1.0.0\issues)
