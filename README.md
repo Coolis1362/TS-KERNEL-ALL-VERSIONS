@@ -97,3 +97,11 @@ This project is **open-source**. You are free to use, modify, and distribute it 
 ## Bugs And Issues
 
 If There Are Bugs Please Go To The [Issues](https://github.com/Coolis1362/TS-KERNEL-1.0.0/issues) Tab
+
+## Requrements
+
+The Requrements Are:
+
+- Must Know How To Code In Python
+- Must Have Git Installed
+- need Python Installed From [Here](https://www.python.org/ftp/python/3.13.3/python-3.13.3-amd64.exe) and [Here](https://apps.microsoft.com/detail/9pnrbtzxmb4z?hl=en-US&gl=US)
