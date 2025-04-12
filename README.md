@@ -103,5 +103,5 @@ If There Are Bugs Please Go To The [Issues](https://github.com/Coolis1362/TS-KER
 The Requrements Are:
 
 - Must Know How To Code In Python
-- Must Have Git Installed
+- Must Have Git Installed If Not Get It [Here](https://git-scm.com/downloads/win)
 - need Python Installed From [Here](https://www.python.org/ftp/python/3.13.3/python-3.13.3-amd64.exe) and [Here](https://apps.microsoft.com/detail/9pnrbtzxmb4z?hl=en-US&gl=US)
