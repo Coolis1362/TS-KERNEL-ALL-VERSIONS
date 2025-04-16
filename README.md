@@ -58,7 +58,7 @@
 4. **Upload to GitHub:**
 
 - Create a repository with the name `TS-DISTRO <Your Distro Name>`.
-- Write a description, e.g., `TS-DISTRO Phoenix is a customizable distro based on TS-KERNEL 1.0.0`.
+- Write a description, e.g., `TS-DISTRO Phoenix is a customizable distro based on TS-KERNEL <Version>`.
 - Add tags like `TS-KERNEL`, `TS-DISTRO`, and `<Your Distro Name>`.
 
 - Create a repository with the name `TS-DISTRO <Your Distro Name>`.
