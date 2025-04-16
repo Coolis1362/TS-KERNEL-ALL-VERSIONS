@@ -1,6 +1,6 @@
-# TS-KERNEL 1.0.0
+# TS-KERNEL ALL VERSIONS
 
-**TS-KERNEL 1.0.0** is an open-source foundational kernel designed to let you create, customize, and share your own distros! It's flexible, dynamic, and empowers developers to innovate with ease. Whether you're building your first distro or contributing to the open-source community, TS-KERNEL is here for you.
+**TS-KERNEL 1.0.0** is an open-source foundational kernel designed to let you create, customize, and share your own distros! It's flexible, dynamic, and empowers developers to innovate with ease. Whether you're building your first distro or contributing to the open-source community, TS-KERNEL is here for you. This has all versions of TS-KERNEL.
 
 ---
 
