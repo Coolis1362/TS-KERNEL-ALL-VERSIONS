@@ -35,7 +35,7 @@
    - type in the command below to your terminal:
 
    ```bash
-   git clone https://github.com/Coolis1362/TS-KERNEL-1.0.0.git
+   git clone https://github.com/Coolis1362/TS-KERNEL-ALL-VERSIONS.git
    ```
    - if Git Is not Installed Get It [Here](https://git-scm.com/downloads/win)
 
@@ -96,7 +96,7 @@ This project is **open-source**. You are free to use, modify, and distribute it 
 
 ## Bugs And Issues
 
-If There Are Bugs Please Go To The [Issues](https://github.com/Coolis1362/TS-KERNEL-1.0.0/issues) Tab
+If There Are Bugs Please Go To The [Issues](https://github.com/Coolis1362/TS-KERNEL-ALL-VERSIONS/issues) Tab
 
 ## Requrements
 
