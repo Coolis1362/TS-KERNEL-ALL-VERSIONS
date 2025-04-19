@@ -1,6 +1,7 @@
 import time
 import os
 from ts_kernel_language.tskerlan import tskerlan
+from shutdown_windows import shutdown_windows
 
 
 def put_distro_name_here(): # Replace put_distro_name_here with the name of your distro
@@ -39,6 +40,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print("tskerlan - start The TS-KERNEL-LANAGUAGE Interpiler")
             print("tsdesktop - start TS-DESKTOP and end cmd.exe")
             print("switch user --USER - Switch to user USER")
+            print("shutdown --host_os")
             print("add your commands here") # Replace It With Your Comamnds and On
 
         elif tsdistrocommand == "exit":
@@ -57,7 +59,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             try:
                 tskerlan()
             except Exception as e:
-              print(f"Error: An issue occurred while executing 'tskerlan': {e}")
+              print(f"Error 305: An issue occurred while executing 'tskerlan': {e}")
         elif tsdistrocommand == "tsdesktop":
             try:
                 os.chdir("C:\\Users\\<Username>\\<NestedFolder>\\Desktop\\TS-KERNEL VERSIONS\\1.x.x\\1.0.x\\TS-KERNEL 1.0.1\\Pre-alpha\\pa2\\root\\ts-desktop\\1.x.x\\1.0.x\\1.0.0\\")
@@ -69,6 +71,12 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
                 print(f"ERROR 758: ERROR FOUND ERROR: {e}")
         elif tsdistrocommand == "switch user --USER":
             MAIN_USER_NAME = "USER"
+        
+        elif tsdistrocommand == "shutdown --host_os":
+            try:
+                shutdown_windows()
+            except Exception as e:
+                print(f"ERROR CODE 575: {e}")
 
 
 
