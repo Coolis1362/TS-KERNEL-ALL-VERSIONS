@@ -5,6 +5,7 @@ root # root folder
 |                       |- ts-distro-distro_name.py # python boot file # replace distro_name with actal distro name 
 |                       |- ts-distro-distro_name.exe # runnable boot file # replace distro_name with actal distro name 
 |                       |- ts-distro-distro_name.bat # command boot file # replace distro_name with actal distro name
+|                       |- shutdown_windows.py # Shuts Down Windows and TS-KERNEL
 |                       |
 |                       |- ts-kernel-language ----------------| # Files For TS-KERNEL LANGUAGE
 |                                                              |
