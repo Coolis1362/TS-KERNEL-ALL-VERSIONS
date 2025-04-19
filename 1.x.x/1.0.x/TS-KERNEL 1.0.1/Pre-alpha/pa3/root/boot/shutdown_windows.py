@@ -4,7 +4,7 @@ import sys
 
 def shutdown_windows():
     system("echo This Will Shutdown Windows, This is windows Talking. Press Y to shutdown Windows, N to Shutdown TS-KERNEL")
-
+while True:
     if keyboard.is_pressed("y"):
         system("echo Shutting Down Windows")
         system("shutdown -s")
