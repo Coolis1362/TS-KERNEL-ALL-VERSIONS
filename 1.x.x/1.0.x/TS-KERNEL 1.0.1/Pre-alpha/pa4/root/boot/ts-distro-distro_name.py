@@ -4,6 +4,7 @@ from ts_kernel_language.tskerlan import tskerlan
 from shutdown_windows import shutdown_windows
 import datetime
 from ts_kernel_language.grammer.print.print import printtext
+import sys
 
 
 
@@ -125,8 +126,12 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
 
 
 if __name__ == "__main__": # DON'T REMOVE THIS LINE
-    put_distro_name_here() # REPLACE THIS LINE WITH THE NAME OF THE MAIN FUNCTION
-
+    if boot():
+        os.system("cls")
+        put_distro_name_here() # REPLACE THIS LINE WITH THE NAME OF THE MAIN FUNCTION
+    else:
+        print("BOOT Failed")
+        sys.exit(0)
 
 
 # use auto-py-to-exe to Turn this Code To An .exe And replace The current .exe With Yours If auto-py-to-exe is not installed use pip install auto-py-to-exe to install it
