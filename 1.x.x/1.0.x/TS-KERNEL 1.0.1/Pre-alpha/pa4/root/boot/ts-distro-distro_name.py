@@ -77,6 +77,8 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
                 shutdown_windows()
             except Exception as e:
                 print(f"ERROR CODE 575: {e}")
+        elif tsdistrocommand == "ts-package":
+            os.system("git clone https://github.com/Coolis1362/ts-package-OFFICAL-PACKAGE-MANAGER")
 
 
 
