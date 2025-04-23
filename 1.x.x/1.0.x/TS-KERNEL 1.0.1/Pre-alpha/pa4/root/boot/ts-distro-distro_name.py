@@ -79,6 +79,8 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
                 print(f"ERROR CODE 575: {e}")
         elif tsdistrocommand == "ts-package":
             os.system("git clone https://github.com/Coolis1362/ts-package-OFFICAL-PACKAGE-MANAGER")
+            os.chdir("ts-package-OFFICAL-PACKAGE-MANAGER\\ts-package\\main")
+            os.system("ts-package.bat")
 
 
 
