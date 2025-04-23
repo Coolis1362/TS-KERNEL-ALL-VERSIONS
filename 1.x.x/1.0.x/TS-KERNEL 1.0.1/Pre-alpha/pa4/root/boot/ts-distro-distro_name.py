@@ -40,7 +40,8 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print("tskerlan - start The TS-KERNEL-LANAGUAGE Interpiler")
             print("tsdesktop - start TS-DESKTOP and end cmd.exe")
             print("switch user --USER - Switch to user USER")
-            print("shutdown --host_os")
+            print("shutdown --host_os - Shutdown Windows")
+            print("ts-package - starts ts-package")
             print("add your commands here") # Replace It With Your Comamnds and On
 
         elif tsdistrocommand == "exit":
