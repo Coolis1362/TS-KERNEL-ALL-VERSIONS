@@ -98,6 +98,8 @@ if __name__ == "__main__": # DON'T REMOVE THIS LINE
         else:
          print("BOOT Failed")
          sys.exit(0)
+    elif bootloader.BOOT.boot.bootos() == "2":
+        sys.exit(0)
 
 
 # use auto-py-to-exe to Turn this Code To An .exe And replace The current .exe With Yours If auto-py-to-exe is not installed use pip install auto-py-to-exe to install it
