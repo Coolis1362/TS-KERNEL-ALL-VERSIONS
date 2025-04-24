@@ -14,10 +14,6 @@ def bootos():
     print("2. Exit")
     while True:
         userinput = input(">> ")
-        if userinput == "1":
-            boot()
-        if userinput == "2":
-            sys.exit(0)
 
 
 
