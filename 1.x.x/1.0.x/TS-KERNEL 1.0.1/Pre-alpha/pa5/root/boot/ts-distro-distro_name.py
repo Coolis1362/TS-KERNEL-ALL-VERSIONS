@@ -95,9 +95,9 @@ if __name__ == "__main__": # DON'T REMOVE THIS LINE
         if boot():
             os.system("cls")
             put_distro_name_here() # REPLACE THIS LINE WITH THE NAME OF THE MAIN FUNCTION
-    else:
-        print("BOOT Failed")
-        sys.exit(0)
+        else:
+         print("BOOT Failed")
+         sys.exit(0)
 
 
 # use auto-py-to-exe to Turn this Code To An .exe And replace The current .exe With Yours If auto-py-to-exe is not installed use pip install auto-py-to-exe to install it
