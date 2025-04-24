@@ -1,6 +1,6 @@
 import time
 import datetime
-from print import printtext
+from print.print import printtext
 
 def boot():
     print("starting BOOT...")
