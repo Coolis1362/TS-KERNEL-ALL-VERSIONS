@@ -10,11 +10,8 @@ def printtext():
 
 
 def bootos():
-    print("1. TS-KERNEL 1.0.1pa5")
-    print("2. Exit")
-    while True:
-        userinput = input(">> ")
-
+    # Simulating a user input scenario
+    return input("Enter 1 to boot TS-KERNEL: ")
 
 
 def boot():
