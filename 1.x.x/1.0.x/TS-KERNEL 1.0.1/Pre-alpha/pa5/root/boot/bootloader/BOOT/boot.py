@@ -1,10 +1,25 @@
 import time
 import datetime
+import sys
 
 def printtext():
 
     user_input = input("PRINT>> ")
     print(user_input)
+
+
+
+def bootos():
+    print("1. TS-KERNEL 1.0.1pa5")
+    print("2. Exit")
+    while True:
+        userinput = input(">> ")
+        if userinput == "1":
+            boot()
+        if userinput == "2":
+            sys.exit(0)
+
+
 
 def boot():
     print("starting BOOT...")
