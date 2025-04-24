@@ -4,6 +4,7 @@ from ts_kernel_language.tskerlan import tskerlan
 from shutdown_windows import shutdown_windows
 import sys
 from bootloader.BOOT.boot import boot
+import bootloader.BOOT.boot
 
 
 
