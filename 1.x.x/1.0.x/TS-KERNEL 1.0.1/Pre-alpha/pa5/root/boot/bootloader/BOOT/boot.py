@@ -12,7 +12,8 @@ def bootos():
     # Simulating a user input scenario
     return input(
         "-----------------------------------------------"
-        "\n-Enter 1 to boot TS-KERNEL Or Enter 2 To Exit:- "
+        "\n-1. TS-KERNEL Or Enter 2 To Exit:- "
+        "\n- 2. Exit                        -"
         "\n-----------------------------------------------\n")
 
 
