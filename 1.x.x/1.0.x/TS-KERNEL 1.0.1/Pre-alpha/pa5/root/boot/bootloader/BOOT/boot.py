@@ -11,7 +11,7 @@ def printtext():
 
 def bootos():
     # Simulating a user input scenario
-    return input("Enter 1 to boot TS-KERNEL: ")
+    return input("Enter 1 to boot TS-KERNEL Or Enter 2 To Exit: ")
 
 
 def boot():
