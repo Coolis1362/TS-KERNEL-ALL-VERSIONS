@@ -5,7 +5,7 @@ from shutdown_windows import shutdown_windows
 import datetime
 from ts_kernel_language.grammer.print.print import printtext
 import sys
-
+from bootloader.BOOT.boot import boot
 
 
 def boot():
