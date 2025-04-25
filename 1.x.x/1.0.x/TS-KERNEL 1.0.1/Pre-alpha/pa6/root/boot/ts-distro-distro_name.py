@@ -5,6 +5,7 @@ from shutdown_windows import shutdown_windows
 import sys
 from bootloader.BOOT.boot import boot
 import bootloader.BOOT.boot
+import datetime
 
 
 
@@ -46,6 +47,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print("switch user --USER - Switch to user USER")
             print("shutdown --host_os - Shutdown Windows")
             print("ts-package - starts ts-package")
+            print("time - Tells The Time")
             print("add your commands here") # Replace It With Your Comamnds and On
 
         elif tsdistrocommand == "exit":
@@ -88,6 +90,8 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             os.system("ts-package.bat")
         elif tsdistrocommand == "distro":
             print(f"CURRENT DISTRO: {DISTRO_NAME}")
+        elif tsdistrocommand == "time":
+            print(datetime.datetime.now)
 
 
 
