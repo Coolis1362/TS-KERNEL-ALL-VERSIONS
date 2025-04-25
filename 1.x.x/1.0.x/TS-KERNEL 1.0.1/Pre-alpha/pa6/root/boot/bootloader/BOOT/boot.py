@@ -45,7 +45,7 @@ def boot():
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
     time.sleep(0.05)
-    print("TIME:", time.time(), datetime.datetime.now(), "BOOTED: tskerlan")
+    print("TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: tskerlan")
     time.sleep(1)
     print("BOOT: BOOT has done botoing and testing, booting TS-KERNEL...")
     time.sleep(2)
