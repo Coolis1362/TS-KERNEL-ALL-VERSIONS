@@ -53,6 +53,7 @@ def boot():
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
+    print("TIME:", time.time(), "HUMAN READABLE TIME NOT SET BOOTED: time.time()")
     print("BOOT: BOOT has done botoing and testing, booting TS-KERNEL...")
     time.sleep(2)
     return True
