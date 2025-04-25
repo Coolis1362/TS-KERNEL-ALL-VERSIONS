@@ -47,6 +47,12 @@ def boot():
     time.sleep(0.05)
     print("TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: tskerlan")
     time.sleep(1)
+    print("TIME: SETTING UP SYSTEM READABLE TIME HUMAN READABLE TIME NOT SET BOOTING: time.time()")
+    try:
+        print(time.time())
+    except Exception as e:
+        print(f"BOOT: ERROR: Error Code 634: {e}")
+        return False
     print("BOOT: BOOT has done botoing and testing, booting TS-KERNEL...")
     time.sleep(2)
     return True
