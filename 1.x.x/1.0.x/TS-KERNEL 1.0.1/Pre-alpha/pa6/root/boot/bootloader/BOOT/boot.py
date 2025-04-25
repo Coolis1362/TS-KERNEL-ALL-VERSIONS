@@ -20,7 +20,7 @@ def bootos():
 def boot():
     print("starting BOOT...")
     time.sleep(1)
-    print("TIME:", time.time(), datetime.datetime.now(), "BOOTING: Commands Booting help As Expanple...")
+    print("TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTING: Commands Booting help As Expanple...")
     time.sleep(1)
     try:
         print("Commands:")
@@ -38,7 +38,7 @@ def boot():
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
     time.sleep(1)
-    print("TIME:", time.time(), datetime.datetime.now(), "BOOTING: tskerlan Booting print Code From tskerlan For Test...")
+    print("TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTING: tskerlan Booting print Code From tskerlan For Test...")
     try:
         printtext()
     except Exception as e:
