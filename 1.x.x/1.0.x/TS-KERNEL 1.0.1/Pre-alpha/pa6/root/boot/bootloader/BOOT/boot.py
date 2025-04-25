@@ -33,7 +33,7 @@ def boot():
         print("switch user --USER - Switch to user USER")
         print("distro - Show current Distro")
         time.sleep(0.05)
-        print("TIME:", time.time(), datetime.datetime.now(), "BOOTED: Commands")
+        print("TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: Commands")
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
