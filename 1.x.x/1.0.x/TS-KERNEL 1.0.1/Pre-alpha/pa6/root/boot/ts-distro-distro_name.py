@@ -86,6 +86,8 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             os.system("git clone https://github.com/Coolis1362/ts-package-OFFICAL-PACKAGE-MANAGER")
             os.chdir("ts-package-OFFICAL-PACKAGE-MANAGER\\ts-package\\main")
             os.system("ts-package.bat")
+        elif tsdistrocommand == "distro":
+            print(f"CURRENT DISTRO: {DISTRO_NAME}")
 
 
 
@@ -98,7 +100,7 @@ if __name__ == "__main__": # DON'T REMOVE THIS LINE
         else:
          print("BOOT Failed")
          sys.exit(0)
-    elif bootloader.BOOT.boot.bootos() == "2":
+    if bootloader.BOOT.boot.bootos() == "2":
         sys.exit(0)
 
 
