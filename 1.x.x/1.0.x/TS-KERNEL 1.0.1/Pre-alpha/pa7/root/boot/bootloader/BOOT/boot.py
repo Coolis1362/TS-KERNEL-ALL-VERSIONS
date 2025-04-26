@@ -31,7 +31,10 @@ def boot():
         print("tskerlan - start The TS-KERNEL-LANAGUAGE Interpiler")
         print("tsdesktop - start TS-DESKTOP and end cmd.exe")
         print("switch user --USER - Switch to user USER")
-        print("distro - Show current Distro")
+        print("shutdown --host_os - Shutdown Windows")
+        print("ts-package - starts ts-package")
+        print("time - Tells The Time")
+        print("admindo - If A Linux User Is Seeing this, It's the Same As sudo")
         time.sleep(0.05)
         print("TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: Commands")
     except Exception as e:
