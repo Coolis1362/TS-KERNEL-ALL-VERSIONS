@@ -118,12 +118,16 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
                  while True:
                      print("Welcome To The TS-KERNEL Store!")
                      admindo_package_input = input("admindo>> package ")
-                     if admindo_package_input == "package help":
+                     if admindo_package_input:
                          try:
                              if check_for_git():
-                                 os.system(f"git clone {GITHUB_RESPOS_URL}/package-help")
+                                 os.system(f"git clone {GITHUB_RESPOS_URL}/{admindo_package_input}")
                          except Exception as e:
                              print(f"Error: {e}")
+                     elif admindo_package_input == "exit":
+                         break
+                elif admindo_input == "exit":
+                    break
 
 
 
