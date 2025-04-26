@@ -7,7 +7,23 @@ from bootloader.BOOT.boot import boot
 import bootloader.BOOT.boot
 import datetime
 
+def check_for_git():
+    try:
+        # Progress bar
+        for step in range(100):
+            print("#", end="", flush=True)
+            time.sleep(0.05)
 
+        # Check Git version
+        exit_code = os.system("\ngit --version")
+        if exit_code != 0:
+            print("\nGit is not installed or not found in PATH.")
+            return False
+        else:
+            print("\nGit is installed and accessible.")
+            return True
+    except Exception as e:
+        print(f"Error occurred: {e}")
 
 def put_distro_name_here(): # Replace put_distro_name_here with the name of your distro
     MAIN_USER_NAME = "ADMIN_USER"
@@ -15,6 +31,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
     DISTRO_NAME = "distro_name" # Replace distro_name with the name of your distro
     KERNEL_VERSION = "1.0.1pa5"
     DISTRO_VERSION = "version name" # Replace This with Version name Of your Distor e.g TS-DISTRO MAIN >>1.0.1pa2<< (The >> and << Are Pointing to A Version Number As A Version number)
+    GITHUB_RESPOS_URL = "https://github.com/Coolis1362/"
     print(f"Welcome To {DISTRO_NAME_PREFIX} {DISTRO_NAME} KERNEL VERSION: {KERNEL_VERSION} DISTRO VERSION: {DISTRO_VERSION}!")
     time.sleep(2)
     print(f"This is Based on TS-KERNEL {KERNEL_VERSION}")
@@ -48,6 +65,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print("shutdown --host_os - Shutdown Windows")
             print("ts-package - starts ts-package")
             print("time - Tells The Time")
+            print("admindo - If A Linux User Is Seeing this, It's the Same As sudo")
             print("add your commands here") # Replace It With Your Comamnds and On
 
         elif tsdistrocommand == "exit":
@@ -91,8 +109,21 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
         elif tsdistrocommand == "distro":
             print(f"CURRENT DISTRO: {DISTRO_NAME}")
         elif tsdistrocommand == "time":
-            print(datetime.datetime.now)
-
+            print(datetime.datetime.now())
+        elif tsdistrocommand == "admindo":
+            while True:
+                print("Starting admindo...")
+                admindo_input = input("admindo>> ")
+                if admindo_input == "package":
+                 while True:
+                     print("Welcome To The TS-KERNEL Store!")
+                     admindo_package_input = input("admindo>> package ")
+                     if admindo_package_input == "package help":
+                         try:
+                             if check_for_git():
+                                 os.system(f"git clone {GITHUB_RESPOS_URL}/package-help")
+                         except Exception as e:
+                             print(f"Error: {e}")
 
 
 
