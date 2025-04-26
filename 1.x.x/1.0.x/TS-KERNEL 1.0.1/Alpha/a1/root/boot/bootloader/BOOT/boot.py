@@ -69,6 +69,6 @@ def boot():
         return False
     print("DONE PROCESS: 100% TIME:", time.time(), datetime.datetime.now(), "BOOTED: datetime.datetime.now()")
     time.sleep(1)
-    print("BOOT: BOOT has done booting and testing, booting TS-KERNEL...")
+    print("BOOT: BOOT has done booting and testing, booting TS-KERNEL and tscli...")
     time.sleep(2)
     return True
