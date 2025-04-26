@@ -21,7 +21,7 @@ def bootos():
 def boot():
     print("starting BOOT...")
     time.sleep(1)
-    print(f"Reading root\\boot\\bootloader\BOOT\\__pycache__\\boot.cpython-{sys.version.split()[0]}.pyc")
+    print(f"Reading root\\boot\\bootloader\BOOT\\__pycache__\\boot.cpython-{sys.version[0]}.pyc")
     time.sleep(1)
     print("DONE PROCESS: 0% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTING: Commands Booting help As Expanple...")
     time.sleep(1)
