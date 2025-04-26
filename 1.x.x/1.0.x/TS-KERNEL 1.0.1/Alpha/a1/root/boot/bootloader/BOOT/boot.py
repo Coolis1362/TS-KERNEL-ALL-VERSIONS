@@ -20,7 +20,7 @@ def bootos():
 def boot():
     print("starting BOOT...")
     time.sleep(1)
-    print("Reading boot.cpython-313.pyc or above...")
+    print("Reading root\\boot\\bootloader\BOOT\\__pycache__\\boot.cpython-313.pyc or above...")
     time.sleep(1)
     print("DONE PROCESS: 0% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTING: Commands Booting help As Expanple...")
     time.sleep(1)
