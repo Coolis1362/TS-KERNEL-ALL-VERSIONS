@@ -22,7 +22,7 @@ def boot():
     time.sleep(1)
     print("Reading boot.cpython-313.pyc or above...")
     time.sleep(1)
-    print("TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTING: Commands Booting help As Expanple...")
+    print("DONE PROCESS: 0% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTING: Commands Booting help As Expanple...")
     time.sleep(1)
     try:
         print("Commands:")
@@ -38,35 +38,35 @@ def boot():
         print("time - Tells The Time")
         print("admindo - If A Linux User Is Seeing this, It's the Same As sudo")
         time.sleep(0.05)
-        print("TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: Commands")
+        print("DONE PROCESS: 25% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: Commands")
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
     time.sleep(1)
-    print("TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTING: tskerlan Booting print Code From tskerlan For Test...")
+    print("DONE PROCESS: 25% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTING: tskerlan Booting print Code From tskerlan For Test...")
     try:
         printtext()
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
     time.sleep(0.05)
-    print("TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: tskerlan")
+    print("DONE PROCESS: 50% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: tskerlan")
     time.sleep(1)
-    print("TIME: SETTING UP SYSTEM READABLE TIME HUMAN READABLE TIME NOT SET BOOTING: time.time()")
+    print("DONE PROCESS: 50% TIME: SETTING UP SYSTEM READABLE TIME HUMAN READABLE TIME NOT SET BOOTING: time.time()")
     try:
         print(time.time())
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
-    print("TIME:", time.time(), "HUMAN READABLE TIME NOT SET BOOTED: time.time()")
+    print("DONE PROCESS: 75% TIME:", time.time(), "HUMAN READABLE TIME NOT SET BOOTED: time.time()")
     time.sleep(1)
-    print("TIME:", time.time(), "HUMAN READABLE TIME NOT SET BOOTING: datetime.datetime.now")
+    print("DONE PROCESS: 75% TIME:", time.time(), "HUMAN READABLE TIME NOT SET BOOTING: datetime.datetime.now")
     try:
         print(datetime.datetime.now())
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
-    print("TIME:", time.time(), datetime.datetime.now(), "BOOTED: datetime.datetime.now()")
+    print("DONE PROCESS: 100% TIME:", time.time(), datetime.datetime.now(), "BOOTED: datetime.datetime.now()")
     time.sleep(1)
     print("BOOT: BOOT has done booting and testing, booting TS-KERNEL...")
     time.sleep(2)
