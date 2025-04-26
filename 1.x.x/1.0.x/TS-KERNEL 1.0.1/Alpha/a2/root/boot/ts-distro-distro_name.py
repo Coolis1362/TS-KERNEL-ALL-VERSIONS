@@ -128,8 +128,21 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
                          break
                 elif admindo_input == "exit":
                     break
+        elif tsdistrocommand == "ts-distro":
+            print(f"djcdnjdjsnknckjnjcbdkd      Kernel Version: {KERNEL_VERSION}")
+            print(f"djdjjdkmdkdnjdjbncidno       Distro: {DISTRO_NAME}")
+            print(f"     jdjkidjdi                Distro Version: {DISTRO_VERSION}")
+            print("     djdjjnfjd        ")
+            print("     djdjjnfjd        ")
+            print("     djdjjnfjd        ")
+            print("     djdjjnfjd        ")
+            print("     djdjjnfjd        ")
+            print("     djdjjnfjd        ")
+            print("     djdjjnfjd        ")
+            print("     djdjjnfjd        ")
+        
         else:
-            print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
+         print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
 
 
 
