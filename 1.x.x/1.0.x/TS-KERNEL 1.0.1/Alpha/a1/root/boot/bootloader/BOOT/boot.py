@@ -1,6 +1,6 @@
+from fileinput import filename
 import time
 import datetime
-import sys
 
 def printtext():
 
@@ -17,11 +17,12 @@ def bootos():
         "\n-2. Exit                                     -"
         "\n-----------------------------------------------\n")
 
+version = int(filename.split("-")[1].split(".")[0])
 
 def boot():
     print("starting BOOT...")
     time.sleep(1)
-    print(f"Reading root\\boot\\bootloader\BOOT\\__pycache__\\boot.cpython-{sys.version[0]}.pyc")
+    print(f"Reading root\\boot\\bootloader\BOOT\\__pycache__\\boot.cpython-{version}.pyc")
     time.sleep(1)
     print("DONE PROCESS: 0% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTING: Commands Booting help As Expanple...")
     time.sleep(1)
