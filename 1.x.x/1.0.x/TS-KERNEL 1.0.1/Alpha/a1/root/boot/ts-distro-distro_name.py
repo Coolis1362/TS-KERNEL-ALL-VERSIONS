@@ -128,6 +128,8 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
                          break
                 elif admindo_input == "exit":
                     break
+        else:
+            print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
 
 
 
