@@ -1,4 +1,4 @@
-FILESYSTEM FOR TS-KERNEL 1.0.1pa2 AND OPEN-SORCE:
+FILESYSTEM FOR TS-KERNEL 1.0.1a1 AND OPEN-SORCE:
 root # root folder
 |
 |- boot ----------------| # boot files
