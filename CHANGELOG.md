@@ -4,3 +4,7 @@
 
 - Updated BOOT
 - Added time As command
+
+## 1.0.1pa7
+
+- Added admindo As Command
