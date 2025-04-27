@@ -211,6 +211,9 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
         elif tsdistrocommand == "msnetwork":
             webbrowser.open("https:/msn.com")
 
+        elif tsdistrocommand == "tsnetwork":
+            fetch_today_news(repo_url)
+
         else:
          print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
 
