@@ -42,6 +42,8 @@ def boot():
         print("ts-distro - Same As neofetch")
         print("tscli - Same As ts-distro But with tscli")
         print("python - Same As The python Command In Other Terminals And Shells")
+        print("boot - Boot Again")
+        print("msnetwork - Start The Microsoft Network")
         time.sleep(0.05)
         print("DONE PROCESS: 25% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: Commands")
     except Exception as e:
