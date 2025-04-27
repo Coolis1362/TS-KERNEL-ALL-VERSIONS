@@ -8,3 +8,8 @@
 ## 1.0.1pa7
 
 - Added admindo As Command
+
+## a1 -a3 Versions
+
+- Updated BOOT Bootloader
+- Added Some Commands
