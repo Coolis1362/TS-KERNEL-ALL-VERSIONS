@@ -45,6 +45,7 @@ def boot():
         print("python - Same As The python Command In Other Terminals And Shells")
         print("boot - Boot Again")
         print("msnetwork - Start The Microsoft Network")
+        print("version - Show the version of the distro and kernel")
         time.sleep(0.05)
         print("DONE PROCESS: 20% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: Commands")
     except Exception as e:
