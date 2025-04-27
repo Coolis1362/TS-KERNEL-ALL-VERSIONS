@@ -142,6 +142,19 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print("     djdjjnfjd        ")
             print("     djdjjnfjd        ")
         
+        elif tsdistrocommand == "tscli":
+            print(f"\ndjcdnjdjsnknckjnjcbdkd      Kernel Version: {KERNEL_VERSION}")
+            print(f"djdjjdkmdkdnjdjbncidno       Distro: {DISTRO_NAME}")
+            print(f"     jdjkidjdi                Distro Version: {DISTRO_VERSION}")
+            print("     djdjjnfjd        ")
+            print("     djdjjnfjd        ")
+            print("     djdjjnfjd s-distro")
+            print("     djdjjnfjd        ")
+            print("     djdjjnfjd        ")
+            print("     djdjjnfjd        ")
+            print("     djdjjnfjd        ")
+            print("     djdjjnfjd        ")
+
         else:
          print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
 
