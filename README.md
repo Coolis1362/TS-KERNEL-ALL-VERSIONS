@@ -108,4 +108,4 @@ The Requrements Are:
 
 ## Python Version Needed
 
-[**@Coolis1362**](https://github.com/Coolis1362) Recommands You To Use Python 3.14, Python 3.13 Will Be Added Soon.
+[**@Coolis1362**](https://github.com/Coolis1362) Recommands You To Use Python 3.14.
