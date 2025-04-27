@@ -78,7 +78,7 @@ def boot():
     time.sleep(1)
     print("DONE PROCESS: 80% TIME:", time.time(), datetime.datetime.now(), "BOOTING: Defualt Network (Microsoft Network (MSN))")
     try:
-        webbrowser.open("htpps://www.msn.com")
+        webbrowser.open("https://www.msn.com")
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
