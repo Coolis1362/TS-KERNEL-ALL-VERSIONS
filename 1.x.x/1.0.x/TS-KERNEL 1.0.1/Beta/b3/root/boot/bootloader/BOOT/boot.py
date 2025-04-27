@@ -1,6 +1,7 @@
 import time
 import datetime
 import sys
+import webbrowser
 
 def printtext():
 
@@ -50,30 +51,38 @@ def boot():
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
     time.sleep(1)
-    print("DONE PROCESS: 25% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTING: tskerlan Booting print Code From tskerlan For Test...")
+    print("DONE PROCESS: 20% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTING: tskerlan Booting print Code From tskerlan For Test...")
     try:
         printtext()
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
     time.sleep(0.05)
-    print("DONE PROCESS: 50% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: tskerlan")
+    print("DONE PROCESS: 40% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: tskerlan")
     time.sleep(1)
-    print("DONE PROCESS: 50% TIME: SETTING UP SYSTEM READABLE TIME HUMAN READABLE TIME NOT SET BOOTING: time.time()")
+    print("DONE PROCESS: 40% TIME: SETTING UP SYSTEM READABLE TIME HUMAN READABLE TIME NOT SET BOOTING: time.time()")
     try:
         print(time.time())
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
-    print("DONE PROCESS: 75% TIME:", time.time(), "HUMAN READABLE TIME NOT SET BOOTED: time.time()")
+    print("DONE PROCESS: 60% TIME:", time.time(), "HUMAN READABLE TIME NOT SET BOOTED: time.time()")
     time.sleep(1)
-    print("DONE PROCESS: 75% TIME:", time.time(), "HUMAN READABLE TIME NOT SET BOOTING: datetime.datetime.now")
+    print("DONE PROCESS: 60% TIME:", time.time(), "HUMAN READABLE TIME NOT SET BOOTING: datetime.datetime.now")
     try:
         print(datetime.datetime.now())
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
-    print("DONE PROCESS: 100% TIME:", time.time(), datetime.datetime.now(), "BOOTED: datetime.datetime.now()")
+    print("DONE PROCESS: 80% TIME:", time.time(), datetime.datetime.now(), "BOOTED: datetime.datetime.now()")
+    time.sleep(1)
+    print("DONE PROCESS: 80% TIME:", time.time(), datetime.datetime.now(), "BOOTING: Defualt Network (Microsoft Network (MSN))")
+    try:
+        webbrowser.open("htpps://www.msn.com")
+    except Exception as e:
+        print(f"BOOT: ERROR: Error Code 634: {e}")
+        return False
+    print("DONE PROCESS: 100% TIME:", time.time(), datetime.datetime.now(), "BOOTED: Defualt Network (Microsoft Network (MSN))")
     time.sleep(1)
     print("BOOT: BOOT has done booting and testing, booting TS-KERNEL and tscli...")
     time.sleep(2)
