@@ -38,6 +38,7 @@ def boot():
         print("ts-package - starts ts-package")
         print("time - Tells The Time")
         print("admindo - If A Linux User Is Seeing this, It's the Same As sudo")
+        print("ts-distro - Same As neofetch")
         time.sleep(0.05)
         print("DONE PROCESS: 25% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: Commands")
     except Exception as e:
