@@ -155,6 +155,9 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print("     djdjjnfjd        ")
             print("     djdjjnfjd        ")
             print("     djdjjnfjd        ")
+        
+        elif tsdistrocommand == "python":
+            print("Test")
 
         else:
          print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
