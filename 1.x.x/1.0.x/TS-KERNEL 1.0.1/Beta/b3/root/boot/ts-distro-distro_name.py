@@ -40,7 +40,7 @@ def fetch_today_news(repo_url):
         print(f"Error occurred: {e}")
 
 # Example Usage
-repo_url = "https://github.com/your-repo-owner/your-repo-name"
+repo_url = "https://github.com/Coolis1362/TS-NETWORK"
 
 
 def check_for_git():
