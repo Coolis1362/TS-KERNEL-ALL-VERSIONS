@@ -7,6 +7,7 @@ from bootloader.BOOT.boot import boot
 import bootloader.BOOT.boot
 import datetime
 from python.python import python
+import webbrowser
 
 def check_for_git():
     try:
@@ -171,7 +172,10 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
                 os.system("ts-distro-distro_name.py")
             except:
                 os.system("C:\\Users\\<Username>\\<NestedFolder>\\Documents\\GitHub\\TS-KERNEL-1.0.0\\1.x.x\\1.0.x\\TS-KERNEL 1.0.1\\Beta\\b2\\root\\boot\\ts-distro-distro_name.py")
-        
+
+        elif tsdistrocommand == "msnetwork":
+            webbrowser.open("https:/msn.com")
+
         else:
          print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
 
