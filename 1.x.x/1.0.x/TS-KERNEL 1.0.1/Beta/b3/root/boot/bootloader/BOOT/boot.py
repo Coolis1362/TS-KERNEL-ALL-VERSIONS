@@ -76,7 +76,7 @@ def boot():
         return False
     print("DONE PROCESS: 80% TIME:", time.time(), datetime.datetime.now(), "BOOTED: datetime.datetime.now()")
     time.sleep(1)
-    print("DONE PROCESS: 80% TIME:", time.time(), datetime.datetime.now(), "BOOTING: Defualt Network (Microsoft Network (MSN))")
+    print("DONE PROCESS: 80% TIME:", time.time(), datetime.datetime.now(), "BOOTING: Default Network (Microsoft Network (MSN))")
     try:
         webbrowser.open("https://www.msn.com")
     except Exception as e:
