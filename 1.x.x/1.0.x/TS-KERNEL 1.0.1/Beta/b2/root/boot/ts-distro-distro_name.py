@@ -71,6 +71,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print("ts-distro - Same As neofetch")
             print("tscli - Same As ts-distro But with tscli")
             print("python - Same As The python Command In Other Terminals And Shells")
+            print("boot - Boot Again")
             print("add your commands here") # Replace It With Your Comamnds and On
 
         elif tsdistrocommand == "exit":
