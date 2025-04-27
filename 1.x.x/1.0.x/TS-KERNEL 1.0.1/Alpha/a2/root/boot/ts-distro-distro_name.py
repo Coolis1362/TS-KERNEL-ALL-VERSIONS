@@ -66,6 +66,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print("ts-package - starts ts-package")
             print("time - Tells The Time")
             print("admindo - If A Linux User Is Seeing this, It's the Same As sudo")
+            print("ts-distro - Same As neofetch")
             print("add your commands here") # Replace It With Your Comamnds and On
 
         elif tsdistrocommand == "exit":
