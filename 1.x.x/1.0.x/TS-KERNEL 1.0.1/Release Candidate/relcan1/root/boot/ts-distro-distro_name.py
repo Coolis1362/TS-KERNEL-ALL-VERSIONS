@@ -192,6 +192,9 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
 
         elif tsdistrocommand == "tsnetwork":
             fetch_today_news()
+        
+        elif tsdistrocommand == "version":
+            print(f"TS-DISTRO {DISTRO_NAME} VERSION: {DISTRO_VERSION} KERNEL VERSION: {KERNEL_VERSION}")
 
         else:
          print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
