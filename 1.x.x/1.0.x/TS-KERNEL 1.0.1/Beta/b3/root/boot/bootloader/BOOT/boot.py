@@ -82,7 +82,7 @@ def boot():
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
-    print("DONE PROCESS: 100% TIME:", time.time(), datetime.datetime.now(), "BOOTED: Defualt Network (Microsoft Network (MSN))")
+    print("DONE PROCESS: 100% TIME:", time.time(), datetime.datetime.now(), "BOOTED: Default Network (Microsoft Network (MSN))")
     time.sleep(1)
     print("BOOT: BOOT has done booting and testing, booting TS-KERNEL and tscli...")
     time.sleep(2)
