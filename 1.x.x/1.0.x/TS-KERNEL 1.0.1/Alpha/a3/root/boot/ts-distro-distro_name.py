@@ -6,6 +6,7 @@ import sys
 from bootloader.BOOT.boot import boot
 import bootloader.BOOT.boot
 import datetime
+from python.python import python
 
 def check_for_git():
     try:
@@ -159,7 +160,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print("     djdjjnfjd        ")
         
         elif tsdistrocommand == "python":
-            print("Test")
+            python()
 
         else:
          print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
