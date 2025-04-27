@@ -9,6 +9,40 @@ import datetime
 from python.python import python
 import webbrowser
 
+import os
+import requests # type: ignore
+from datetime import datetime
+
+def fetch_today_news(repo_url):
+    try:
+        # Get today's date in the format "NEWS YYYY-MM-DD"
+        today_date = datetime.now().strftime("NEWS %Y-%m-%d")
+
+        # Extract repo owner and name from the URL
+        parts = repo_url.rstrip('/').split('/')
+        owner, repo = parts[-2], parts[-1]
+
+        # GitHub API to fetch the repository contents
+        api_url = f"https://api.github.com/repos/{owner}/{repo}/contents"
+        response = requests.get(api_url)
+        if response.status_code == 200:
+            contents = response.json()
+            print(f"Checking for today's news: {today_date}")
+            for item in contents:
+                if item["type"] == "dir" and item["name"] == today_date:
+                    print(f"News folder found: {item['name']}")
+                    print(f"URL to folder: {item['html_url']}")
+                    return item['name']
+            print("No news found for today.")
+        else:
+            print(f"Error: Unable to access repository contents (Status Code: {response.status_code}).")
+    except Exception as e:
+        print(f"Error occurred: {e}")
+
+# Example Usage
+repo_url = "https://github.com/your-repo-owner/your-repo-name"
+
+
 def check_for_git():
     try:
         # Progress bar
