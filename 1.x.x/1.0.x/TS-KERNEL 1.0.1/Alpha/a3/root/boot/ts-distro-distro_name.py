@@ -32,6 +32,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
     KERNEL_VERSION = "1.0.1a2"
     DISTRO_VERSION = "version name" # Replace This with Version name Of your Distor e.g TS-DISTRO MAIN >>1.0.1pa2<< (The >> and << Are Pointing to A Version Number As A Version number)
     GITHUB_RESPOS_URL = "https://github.com/Coolis1362/"
+    TSCLI_VERSION = "1.0.1"
     print(f"Welcome To {DISTRO_NAME_PREFIX} {DISTRO_NAME} KERNEL VERSION: {KERNEL_VERSION} DISTRO VERSION: {DISTRO_VERSION}!")
     time.sleep(2)
     print(f"This is Based on TS-KERNEL {KERNEL_VERSION}")
@@ -144,11 +145,11 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
         
         elif tsdistrocommand == "tscli":
             print(f"\ndjcdnjdjsnknckjnjcbdkd      Kernel Version: {KERNEL_VERSION}")
-            print(f"djdjjdkmdkdnjdjbncidno       Distro: {DISTRO_NAME}")
-            print(f"     jdjkidjdi                Distro Version: {DISTRO_VERSION}")
+            print("djdjjdkmdkdnjdjbncidno       Shell: tscli")
+            print(f"     jdjkidjdi                Shell Version: {TSCLI_VERSION}")
             print("     djdjjnfjd        ")
             print("     djdjjnfjd        ")
-            print("     djdjjnfjd s-distro")
+            print("     djdjjnfjd scli")
             print("     djdjjnfjd        ")
             print("     djdjjnfjd        ")
             print("     djdjjnfjd        ")
