@@ -15,7 +15,7 @@ def bootos():
     return input(
         "-------------------------------------------------------"
         "\n- Choose A Number, This Key Will Tell What It Will Do -"
-        "\n- 1 = TS-KERNEL 1.0.1b3:                              -"
+        "\n- 1 = TS-KERNEL 1.0.1relcan1                          -"
         "\n- 2 = Exit                                            -"
         "\n-------------------------------------------------------\n")
 
@@ -23,7 +23,7 @@ def bootos():
 def boot():
     print("starting BOOT...")
     time.sleep(1)
-    print(f"Reading root\\boot\\bootloader\BOOT\\__pycache__\\boot.cpython-{sys.version_info.major}{sys.version_info.minor}.pyc")
+    print(f"Reading root\\boot\\bootloader\\BOOT\\__pycache__\\boot.cpython-{sys.version_info.major}{sys.version_info.minor}.pyc")
     time.sleep(1)
     print("DONE PROCESS: 0% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTING: Commands Booting help As Expanple...")
     time.sleep(1)
