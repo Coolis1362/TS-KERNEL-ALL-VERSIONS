@@ -46,7 +46,7 @@ def boot():
         print("boot - Boot Again")
         print("msnetwork - Start The Microsoft Network")
         time.sleep(0.05)
-        print("DONE PROCESS: 25% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: Commands")
+        print("DONE PROCESS: 20% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: Commands")
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
