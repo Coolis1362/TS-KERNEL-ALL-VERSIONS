@@ -134,7 +134,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print(f"     jdjkidjdi                Distro Version: {DISTRO_VERSION}")
             print("     djdjjnfjd        ")
             print("     djdjjnfjd        ")
-            print("     djdjjnfjd        ")
+            print("     djdjjnfjd s-distro")
             print("     djdjjnfjd        ")
             print("     djdjjnfjd        ")
             print("     djdjjnfjd        ")
