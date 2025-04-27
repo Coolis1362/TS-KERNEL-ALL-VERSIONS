@@ -13,7 +13,7 @@ def bootos():
     # Simulating a user input scenario
     return input(
         "-----------------------------------------------"
-        "\n-1. TS-KERNEL 1.0.1a1:                        - "
+        "\n-1. TS-KERNEL 1.0.1a2:                        - "
         "\n-2. Exit                                      -"
         "\n-----------------------------------------------\n")
 
