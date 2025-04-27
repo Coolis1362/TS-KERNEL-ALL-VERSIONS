@@ -39,6 +39,8 @@ def boot():
         print("time - Tells The Time")
         print("admindo - If A Linux User Is Seeing this, It's the Same As sudo")
         print("ts-distro - Same As neofetch")
+        print("tscli - Same As ts-distro But with tscli")
+        print("python - Same As The python Command In Other Terminals And Shells")
         time.sleep(0.05)
         print("DONE PROCESS: 25% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: Commands")
     except Exception as e:
