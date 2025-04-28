@@ -88,6 +88,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print("boot - Boot Again")
             print("msnetwork - Start The Microsoft Network")
             print("version - Show the version of the distro and kernel")
+            print("git - Same As The git Command In Other Terminals And Shells")
             print("add your commands here") # Replace It With Your Comamnds and On
 
         elif tsdistrocommand == "exit":
