@@ -91,7 +91,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
         os.chdir("..")
         os.chdir("users")
         os.chdir(MAIN_USER_NAME)
-        tsdistrocommand = input(f"{MAIN_USER_NAME}at{DISTRO_NAME}:in {current_terminal_folder}@ ")
+        tsdistrocommand = input(f"{MAIN_USER_NAME}at{DISTRO_NAME}:in {os.getcwd()}@ ")
         if tsdistrocommand == "help":
             print("Commands:")
             print("help - Show this help message")
