@@ -219,6 +219,11 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             git_input = input("Enter the git command: ")
             if check_for_git():
                 os.system(f"git {git_input}")
+        
+        elif tsdistrocommand == "gh":
+            if check_for_gh():
+                gh_input = input("Enter the gh command: ")
+                os.system(f"gh {gh_input}")
 
         else:
          print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
