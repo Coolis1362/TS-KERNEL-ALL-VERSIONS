@@ -196,6 +196,11 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
         
         elif tsdistrocommand == "version":
             print(f"TS-DISTRO {DISTRO_NAME} VERSION: {DISTRO_VERSION} KERNEL VERSION: {KERNEL_VERSION}")
+        
+        elif tsdistrocommand == "git":
+            git_input = input("Enter the git command: ")
+            if check_for_git():
+                os.system(f"git {git_input}")
 
         else:
          print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
