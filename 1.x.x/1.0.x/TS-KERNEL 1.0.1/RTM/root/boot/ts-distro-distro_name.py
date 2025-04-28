@@ -21,6 +21,23 @@ def fetch_today_news(repo_url):
 # Example Usage
 repo_url = "https://github.com/Coolis1362/TS-NETWORK"
 
+def check_for_gh():
+    try:
+        # Progress bar
+        for step in range(100):
+            print("#", end="", flush=True)
+            time.sleep(0.05)
+
+        # Check Git version
+        exit_code = os.system("\ngh --version")
+        if exit_code != 0:
+            print("\nGitHub CLI is not installed or not found in PATH.")
+            return False
+        else:
+            print("\nGitHub CLI is installed and accessible.")
+            return True
+    except Exception as e:
+        print(f"Error occurred: {e}")
 
 def check_for_git():
     try:
