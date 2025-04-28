@@ -65,6 +65,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
     DISTRO_VERSION = "version name" # Replace This with Version name Of your Distor e.g TS-DISTRO MAIN >>1.0.1pa2<< (The >> and << Are Pointing to A Version Number As A Version number)
     GITHUB_RESPOS_URL = "https://github.com/Coolis1362/"
     TSCLI_VERSION = "1.0.1.1"
+    current_folder = os.path.dirname(os.path.abspath(__file__))
     print(f"Welcome To {DISTRO_NAME_PREFIX} {DISTRO_NAME} KERNEL VERSION: {KERNEL_VERSION} DISTRO VERSION: {DISTRO_VERSION}!")
     time.sleep(2)
     print(f"This is Based on TS-KERNEL {KERNEL_VERSION}")
@@ -85,7 +86,11 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
     print("****************************************************************")
 
     while True:
-        tsdistrocommand = input(f"{MAIN_USER_NAME}at{DISTRO_NAME}:~@ ")
+        os.chdir(current_folder)
+        os.chdir("..")
+        os.chdir("users")
+        os.chdir(MAIN_USER_NAME)
+        tsdistrocommand = input(f"{MAIN_USER_NAME}at{DISTRO_NAME}:in {MAIN_USER_NAME}@ ")
         if tsdistrocommand == "help":
             print("Commands:")
             print("help - Show this help message")
