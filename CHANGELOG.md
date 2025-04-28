@@ -14,7 +14,7 @@
 - Updated BOOT Bootloader
 - Added Some Commands
 
-## 1.0.1b1 - 1.0.1relcan2
+## 1.0.1b1 and Above
 
 - Updated BOOT bootloader
 - Added Some Commands
