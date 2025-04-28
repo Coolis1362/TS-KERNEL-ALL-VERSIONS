@@ -66,6 +66,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
     GITHUB_RESPOS_URL = "https://github.com/Coolis1362/"
     TSCLI_VERSION = "1.0.1.1"
     current_folder = os.path.dirname(os.path.abspath(__file__))
+    current_terminal_folder = os.getcwd()
     print(f"Welcome To {DISTRO_NAME_PREFIX} {DISTRO_NAME} KERNEL VERSION: {KERNEL_VERSION} DISTRO VERSION: {DISTRO_VERSION}!")
     time.sleep(2)
     print(f"This is Based on TS-KERNEL {KERNEL_VERSION}")
@@ -230,6 +231,10 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             if check_for_gh():
                 gh_input = input("Enter the gh command: ")
                 os.system(f"gh {gh_input}")
+        
+        elif tsdistrocommand == "ls":
+            print(f"IN {current_terminal_folder}:")
+            print(os.system("dir" if os.name == "nt" else "ls"))
 
         else:
          print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
