@@ -99,7 +99,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
                                 "\n|"
                                 "\n|"
                                 "\n|"
-                                "\n|----------------@")
+                                "\n|----------------@ ")
         if tsdistrocommand == "help":
             print("Commands:")
             print("help - Show this help message")
