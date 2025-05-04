@@ -3,12 +3,14 @@ import datetime
 import sys
 import webbrowser
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo  # Standard timezone handling for Python 3.14+
 
 # Define the TS-KERNEL Epoch Start Time
-epoch_start = datetime(2025, 4, 9, 0, 0, 0, tzinfo=timezone.utc)
+epoch_start = datetime(2025, 4, 9, 0, 0, 0, tzinfo=ZoneInfo("America/New_York"))  # US Eastern Time
 
+# Function to calculate elapsed seconds
 def get_seconds_since_epoch():
-    now = datetime.now(timezone('US/Eastern'))  # Get current time in US Eastern
+    now = datetime.now(ZoneInfo("America/New_York"))  # Get current time in US Eastern
     elapsed_seconds = (now - epoch_start).total_seconds()  # Calculate elapsed seconds
     return int(elapsed_seconds)
 
