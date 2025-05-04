@@ -7,6 +7,12 @@ from datetime import datetime, timezone
 # Define the TS-KERNEL Epoch Start Time
 epoch_start = datetime(2025, 4, 9, 0, 0, 0, tzinfo=timezone.utc)
 
+def get_seconds_since_epoch():
+    now = datetime.now(timezone('US/Eastern'))  # Get current time in US Eastern
+    elapsed_seconds = (now - epoch_start).total_seconds()  # Calculate elapsed seconds
+    return int(elapsed_seconds)
+
+
 
 def printtext():
 
