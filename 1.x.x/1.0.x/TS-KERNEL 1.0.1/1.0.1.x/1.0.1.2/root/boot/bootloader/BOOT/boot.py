@@ -2,6 +2,11 @@ import time
 import datetime
 import sys
 import webbrowser
+from datetime import datetime, timezone
+
+# Define the TS-KERNEL Epoch Start Time
+epoch_start = datetime(2025, 4, 9, 0, 0, 0, tzinfo=timezone.utc)
+
 
 def printtext():
 
