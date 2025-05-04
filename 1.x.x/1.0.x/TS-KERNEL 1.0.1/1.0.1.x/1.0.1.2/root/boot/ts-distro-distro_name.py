@@ -12,6 +12,15 @@ import webbrowser
 import os
 from datetime import datetime
 
+# Set epoch using UTC, since your system isn't detecting named time zones
+epoch_start = datetime(2025, 4, 9, 0, 0, 0, tzinfo=datetime.timezone.utc)
+
+# Function to get elapsed seconds
+def get_seconds_since_epoch():
+    now = datetime.now(datetime.timezone.utc)  # Use UTC to ensure compatibility
+    elapsed_seconds = (now - epoch_start).total_seconds()
+    return int(elapsed_seconds)
+
 def fetch_today_news(repo_url):
     try:
        os.system("git clone " + repo_url)
