@@ -10,14 +10,13 @@ from python.python import python
 import webbrowser
 
 import os
-from datetime import datetime
 
 # Set epoch using UTC, since your system isn't detecting named time zones
-epoch_start = datetime(2025, 4, 9, 0, 0, 0, tzinfo=datetime.timezone.utc)
+epoch_start = datetime.datetime(2025, 4, 9, 0, 0, 0, tzinfo=datetime.timezone.utc)
 
 # Function to get elapsed seconds
 def get_seconds_since_epoch():
-    now = datetime.now(datetime.timezone.utc)  # Use UTC to ensure compatibility
+    now = datetime.datetime.now(datetime.timezone.utc)  # Use UTC to ensure compatibility
     elapsed_seconds = (now - epoch_start).total_seconds()
     return int(elapsed_seconds)
 
@@ -131,6 +130,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print("git - Same As The git Command In Other Terminals And Shells")
             print("gh - Same As The gh Command In Other Terminals And Shells")
             print("ls - List files in the current directory")
+            print("time --sys - Show The System Time")
             print("add your commands here") # Replace It With Your Comamnds and On
 
         elif tsdistrocommand == "exit":
@@ -253,6 +253,9 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
         elif tsdistrocommand == "ls":
             print(f"IN {current_terminal_folder}:")
             print(os.system("dir" if os.name == "nt" else "ls"))
+
+        elif tsdistrocommand == "time --sys":
+            print(get_seconds_since_epoch()) 
 
         else:
          print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
