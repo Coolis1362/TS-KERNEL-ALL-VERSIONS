@@ -68,7 +68,7 @@ def boot():
         print("DONE PROCESS: 16.6666666667% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: Commands")
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
-        messagebox.showerror("BOOT", f"A Error Has Been found: Error Code 634: {e}, Please Report This To ")
+        messagebox.showerror("BOOT", f"A Error Has Been found: Error Code 634: {e}, Please Report This To https://github.com/Coolis1362/TS-KERNEL-ALL-VERSIONS/issues")
         return False
     time.sleep(1)
     print("DONE PROCESS: 16.6666666667% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTING: tskerlan Booting print Code From tskerlan For Test...")
@@ -76,6 +76,7 @@ def boot():
         printtext()
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
+        messagebox.showerror("BOOT", f"A Error Has Been found: Error Code 634: {e}, Please Report This To https://github.com/Coolis1362/TS-KERNEL-ALL-VERSIONS/issues")
         return False
     time.sleep(0.05)
     print("DONE PROCESS: 50.0000000001% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: tskerlan")
@@ -85,6 +86,7 @@ def boot():
         print(time.time())
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
+        messagebox.showerror("BOOT", f"A Error Has Been found: Error Code 634: {e}, Please Report This To https://github.com/Coolis1362/TS-KERNEL-ALL-VERSIONS/issues")
         return False
     print("DONE PROCESS: 66.6666666668% TIME:", time.time(), "HUMAN READABLE TIME NOT SET BOOTED: time.time()")
     time.sleep(1)
@@ -93,6 +95,7 @@ def boot():
         print(datetime.now())
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
+        messagebox.showerror("BOOT", f"A Error Has Been found: Error Code 634: {e}, Please Report This To https://github.com/Coolis1362/TS-KERNEL-ALL-VERSIONS/issues")
         return False
     print("DONE PROCESS: 83.3333333335% TIME:", time.time(), datetime.now(), "BOOTED: datetime.now()")
     time.sleep(1)
@@ -101,6 +104,7 @@ def boot():
         webbrowser.open("https://www.msn.com")
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
+        messagebox.showerror("BOOT", f"A Error Has Been found: Error Code 634: {e}, Please Report This To https://github.com/Coolis1362/TS-KERNEL-ALL-VERSIONS/issues")
         return False
     print("DONE PROCESS: 83.3333333335% TIME:", time.time(), datetime.now(), "BOOTED: Default Network (Microsoft Network (MSN))")
     time.sleep(1)
@@ -109,6 +113,7 @@ def boot():
         print(get_seconds_since_epoch())
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
+        messagebox.showerror("BOOT", f"A Error Has Been found: Error Code 634: {e}, Please Report This To https://github.com/Coolis1362/TS-KERNEL-ALL-VERSIONS/issues")
         return False
     print("DONE PROCESS: 100% TIME:", time.time(), datetime.now(), "BOOTED: Default Network (Microsoft Network (MSN))")
     time.sleep(1)
