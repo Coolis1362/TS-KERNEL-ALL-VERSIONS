@@ -263,9 +263,9 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
         
         elif tsdistrocommand == "messagebox error":
             messagebox.showerror("tscli", "Thank You for Using This Command To Test Out Error Message boxes!")
-
         else:
-         print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
+            print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
+            messagebox.showerror("tscli", f"tscli: {tsdistrocommand}: Command Not Found In Code.")
 
 
 
