@@ -28,7 +28,7 @@ def bootos():
     return input(
         "-------------------------------------------------------"
         "\n- Choose A Number, This Key Will Tell What It Will Do -"
-        "\n- 1 = TS-KERNEL 1.0.1.1 Codename 'Pulse'              -"
+        "\n- 1 = Project Professional Build 2024.5               -"
         "\n- 2 = Exit                                            -"
         "\n-------------------------------------------------------\n")
 
