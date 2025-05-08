@@ -68,7 +68,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
     MAIN_USER_NAME = "ADMIN_USER"
     DISTRO_NAME_PREFIX = "TS-DISTRO"
     DISTRO_NAME = "distro_name" # Replace distro_name with the name of your distro
-    KERNEL_VERSION = "1.0.1.1 Codename 'Pulse'" 
+    KERNEL_VERSION = "Project Professional Build 2024.5" 
     DISTRO_VERSION = "version name" # Replace This with Version name Of your Distor e.g TS-DISTRO MAIN >>1.0.1pa2<< (The >> and << Are Pointing to A Version Number As A Version number)
     GITHUB_RESPOS_URL = "https://github.com/Coolis1362/"
     TSCLI_VERSION = "1.0.1.1"
@@ -263,7 +263,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
 
 if __name__ == "__main__": # DON'T REMOVE THIS LINE
     if bootloader.BOOT.boot.bootos() == "1":
-        KERNEL_VERSION = "1.0.1.1 Codename 'Pulse'"
+        KERNEL_VERSION = "Project Professional Build 2024.5"
         messagebox.showinfo("BOOTOS", f"This Will Boot {KERNEL_VERSION}")
         if boot():
             os.system("cls")
