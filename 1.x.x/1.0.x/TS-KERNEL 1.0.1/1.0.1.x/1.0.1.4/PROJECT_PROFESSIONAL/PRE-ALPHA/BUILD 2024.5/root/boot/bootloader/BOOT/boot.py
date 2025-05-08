@@ -3,6 +3,7 @@ import datetime
 import sys
 import webbrowser
 from datetime import datetime, timezone
+from tkinter import messagebox
 
 # Set epoch using UTC, since your system isn't detecting named time zones
 epoch_start = datetime(2025, 4, 9, 0, 0, 0, tzinfo=timezone.utc)
@@ -67,6 +68,7 @@ def boot():
         print("DONE PROCESS: 16.6666666667% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTED: Commands")
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
+        messagebox.showerror("BOOT", f"A Error Has Been found: Error Code 634: {e}, Please Report This To ")
         return False
     time.sleep(1)
     print("DONE PROCESS: 16.6666666667% TIME: SYSTEM READABLE TIME NOT SET HUMAN READABLE TIME NOT SET BOOTING: tskerlan Booting print Code From tskerlan For Test...")
