@@ -130,6 +130,8 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print("gh - Same As The gh Command In Other Terminals And Shells")
             print("ls - List files in the current directory")
             print("time --sys - Show The System Time")
+            print("messagebox info - Show an info message box")
+            print("messagebox error - Show an error message box")
             print("add your commands here") # Replace It With Your Comamnds and On
 
         elif tsdistrocommand == "exit":
