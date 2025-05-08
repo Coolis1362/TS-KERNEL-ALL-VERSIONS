@@ -266,6 +266,7 @@ if __name__ == "__main__": # DON'T REMOVE THIS LINE
         KERNEL_VERSION = "Project Professional Build 2024.5"
         messagebox.showinfo("BOOTOS", f"This Will Boot {KERNEL_VERSION}")
         if boot():
+            messagebox.showinfo("tscli", f"tscli And {KERNEL_VERSION} Will Boot Now")
             os.system("cls")
             put_distro_name_here() # REPLACE THIS LINE WITH THE NAME OF THE MAIN FUNCTION
         else:
