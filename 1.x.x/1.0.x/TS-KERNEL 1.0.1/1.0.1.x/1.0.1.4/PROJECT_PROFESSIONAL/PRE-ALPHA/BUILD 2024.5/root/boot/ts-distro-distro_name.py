@@ -257,7 +257,10 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print(get_seconds_since_epoch())
 
         elif tsdistrocommand == "messagebox info":
-            messagebox.showinfo("tscli", "Thank You for Using This Command To Test Out Message boxes!") 
+            messagebox.showinfo("tscli", "Thank You for Using This Command To Test Out Info Message boxes!") 
+        
+        elif tsdistrocommand == "messagebox error":
+            messagebox.showerror("tscli", "Thank You for Using This Command To Test Out Error Message boxes!")
 
         else:
          print(f"tscli: {tsdistrocommand}: Command Not Found In Code.")
