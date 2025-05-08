@@ -8,8 +8,7 @@ import bootloader.BOOT.boot
 import datetime
 from python.python import python
 import webbrowser
-
-import os
+from tkinter import messagebox
 
 # Set epoch using UTC, since your system isn't detecting named time zones
 epoch_start = datetime.datetime(2025, 4, 9, 0, 0, 0, tzinfo=datetime.timezone.utc)
@@ -264,6 +263,8 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
 
 if __name__ == "__main__": # DON'T REMOVE THIS LINE
     if bootloader.BOOT.boot.bootos() == "1":
+        KERNEL_VERSION = "1.0.1.1 Codename 'Pulse'"
+        messagebox.showinfo("BOOTOS", f"This Will Boot {KERNEL_VERSION}")
         if boot():
             os.system("cls")
             put_distro_name_here() # REPLACE THIS LINE WITH THE NAME OF THE MAIN FUNCTION
